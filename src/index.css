@@ -1,0 +1,30 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Outfit:wght@100..900&family=Prata&family=Ropa+Sans:ital@0;1&display=swap');
+
+
+a.active hr {
+    display: block;
+}
+* {
+    font-family: "Outfit", sans-serif;
+}
+
+.prata-regular {
+  font-family: "Prata", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+@media (max-width:640px) {
+    
+    a.active {
+        background-color: black;
+        color: white;
+
+    }
+
+}
